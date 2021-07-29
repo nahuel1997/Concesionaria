@@ -5,8 +5,9 @@ package com.Clases;
  * @author nahue
  */
 public class Autos {
-    private String marca="", modelo="";
-    private float precio=0f;
+    String marca = "";
+    String modelo = "";
+    float precio=0f;
     private int puertas=0, cilindradas=0;
 
     
