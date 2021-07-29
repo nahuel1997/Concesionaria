@@ -1,14 +1,14 @@
 package com.Clases;
 
 /**
- *
- * @author nahue
+ * nahuel.sasia@gmail.com
+ * @author Nahuel Perez Sasia
  */
-public class Autos {
+public class Autos implements Interfaz {
     String marca = "";
     String modelo = "";
     float precio=0f;
-    private int puertas=0;
+    int puertas=0;
 
     
    
@@ -27,26 +27,15 @@ public class Autos {
     public String toString() {
         return "Marca: "+marca+" // "+"Modelo: "+modelo+" // "+"Puertas:"+puertas+" // "+"Precio: $"+precio;
     }
+
+    @Override
+    public void ID() {
+        //posible extencion de proyecto, complementando con sedes y responsables
+    }
+
+ 
+
+ 
     
-    
-    public String getMarca() {
-        return marca;
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public float getPrecio() {
-        return precio;
-    }
-
-    public int getPuertas() {
-        return puertas;
-    }
-
-
-
-  
     
 }

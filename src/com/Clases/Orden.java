@@ -1,14 +1,16 @@
 package com.Clases;
-
 /**
- *
- * @author nahue
+ * nahuel.sasia@gmail.com
+ * @author Nahuel Perez Sasia
  */
     public class Orden extends Modelos {
+//extiende de Modelos,Para facilitiar el cambio de algun vehiculo y alterar lo menos posible el codigo
+        
         @Override
         public void imprimir() {
-                
-        if(a1.precio <a2.precio){
+//----------------------------------------------------------------------------------------------//               
+            //Imprimie el vehiculo mas caro 
+            if(a1.precio <a2.precio){
                if(m1.precio<a2.precio){
                    if(m2.precio<a2.precio){
                        System.out.println("Vehiculo mas caro: "+a2.marca+" "+a2.modelo);
@@ -33,7 +35,8 @@ package com.Clases;
                     }
                 }
             }           
-            //------------------------------------------------------------------------------- 
+ //----------------------------------------------------------------------------------------------// 
+            //Imprimie el vehiculo mas varato
             if(a1.precio >a2.precio){
                if(m1.precio>a2.precio){
                    if(m2.precio>a2.precio){
@@ -57,7 +60,10 @@ package com.Clases;
                 
             
              
-           //-------------------------------------------------------------------------------
-    }
+ //----------------------------------------------------------------------------------------------// 
+            
+        
+        
+        }
     
 }

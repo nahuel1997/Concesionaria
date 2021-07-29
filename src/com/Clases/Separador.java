@@ -1,10 +1,9 @@
 package com.Clases;
-
 /**
- *
- * @author nahue
+ * nahuel.sasia@gmail.com
+ * @author Nahuel Perez Sasia
  */
-public class Separador extends Impreciones{
+public class Separador extends Modelos{
 
     @Override
     public void imprimir() {

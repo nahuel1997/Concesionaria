@@ -1,18 +1,13 @@
 package com.Clases;
-
 /**
- *
- * @author nahue
+ * nahuel.sasia@gmail.com
+ * @author Nahuel Perez Sasia
  */
-public class Descendente extends Impreciones{
+public class Descendente extends Modelos{
         
-
+//extiende de Modelos,Para facilitiar el cambio de algun vehiculo y alterar lo menos posible el codigo
     @Override
     public void imprimir() {
-        Autos a1 =new Autos("Peugeot","206",200000.00f,4);
-        Autos a2 =new Autos("Peugeot","208",250000.00f,5);
-        Motos m1 =new Motos("Honda","Titan",60000.00f ,125);
-        Motos m2 =new Motos("Yamaha","YBR",80500.00f ,160);
         System.out.println("Vehiculos ordenados por precio mayor a menor:");
             if(a1.precio>a2.precio && a1.precio >m1.precio && a1.precio >m2.precio){
                 System.out.println(a1.marca+""+a1.modelo);
