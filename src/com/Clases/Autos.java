@@ -45,9 +45,7 @@ public class Autos {
         return puertas;
     }
 
-    public int getCilindradas() {
-        return cilindradas;
-    }
+
 
   
     

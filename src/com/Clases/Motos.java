@@ -21,7 +21,7 @@ public class Motos {
 
     @Override
     public String toString() {
-        return "Marca: "+marca+" // "+"Modelo: "+modelo+" // "+"Cilindradas:"+cilindradas+"cc"+" // "+"Precio:"+precio;
+        return "Marca: "+marca+" // "+"Modelo: "+modelo+" // "+"Cilindradas:"+cilindradas+"cc"+" // "+"Precio: $"+precio;
     }
 
     public String getMarca() {
