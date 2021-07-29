@@ -10,9 +10,9 @@ public class main {
         Orden mensajero3=new Orden();
         Descendente mensajero4=new Descendente();
         mensajero.imprimir();
-        mensajero2.Linea();
+        mensajero2.imprimir();
         mensajero3.imprimir();
-        mensajero2.Linea();
+        mensajero2.imprimir();
         mensajero4.imprimir();
         
         
