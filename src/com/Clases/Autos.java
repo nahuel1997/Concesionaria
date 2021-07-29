@@ -8,7 +8,7 @@ public class Autos {
     String marca = "";
     String modelo = "";
     float precio=0f;
-    private int puertas=0, cilindradas=0;
+    private int puertas=0;
 
     
    

@@ -4,9 +4,11 @@ package com.Clases;
  *
  * @author nahue
  */
-public class Descendente {
-        public void MayorAMenor(){
-    
+public class Descendente extends Impreciones{
+        
+
+    @Override
+    public void imprimir() {
         Autos a1 =new Autos("Peugeot","206",200000.00f,4);
         Autos a2 =new Autos("Peugeot","208",250000.00f,5);
         Motos m1 =new Motos("Honda","Titan",60000.00f ,125);

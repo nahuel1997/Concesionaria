@@ -9,11 +9,11 @@ public class main {
         Separador mensajero2=new Separador();
         Orden mensajero3=new Orden();
         Descendente mensajero4=new Descendente();
-        mensajero.Imprimir();
+        mensajero.imprimir();
         mensajero2.Linea();
-        mensajero3.Imprimir2();
+        mensajero3.imprimir();
         mensajero2.Linea();
-        mensajero4.MayorAMenor();
+        mensajero4.imprimir();
         
         
     }
